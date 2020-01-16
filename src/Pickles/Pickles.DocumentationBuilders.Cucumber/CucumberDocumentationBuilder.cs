@@ -77,6 +77,7 @@ namespace PicklesDoc.Pickles.DocumentationBuilders.Cucumber
         {
             var toOutPut = features.Select(f => new
             {
+                uri = "features/" + f.Name,
                 keyword = "Feature",
                 name = f.Name,
                 tags = f.Tags.Select(t => new { name = t }),
