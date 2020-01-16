@@ -91,6 +91,7 @@ Scenario: Clear the screen
 #line 21
     testRunner.Then("the JSON file should contain", @"[
   {
+    ""uri"": ""features/Clearing Screen"",
     ""keyword"": ""Feature"",
     ""name"": ""Clearing Screen"",
     ""tags"": [],
@@ -200,6 +201,7 @@ Scenario: Scenario with large data table
 #line 122
     testRunner.Then("the JSON file should contain", @"[
   {
+    ""uri"": ""features/Interactive DHTML View"",
     ""keyword"": ""Feature"",
     ""name"": ""Interactive DHTML View"",
     ""tags"": [],
