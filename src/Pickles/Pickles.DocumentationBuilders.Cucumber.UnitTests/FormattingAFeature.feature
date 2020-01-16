@@ -22,6 +22,7 @@ Scenario: A simple feature
 """
 [
   {
+    "uri": "features/Clearing Screen",
     "keyword": "Feature",
     "name": "Clearing Screen",
     "tags": [],
@@ -123,6 +124,7 @@ Scenario: A feature with a table
 """
 [
   {
+    "uri": "features/Interactive DHTML View",
     "keyword": "Feature",
     "name": "Interactive DHTML View",
     "tags": [],
